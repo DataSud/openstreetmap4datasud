@@ -11,15 +11,20 @@ Mise en place initiale des données
 
 3) Dans working_dir, il faut ensuite créer un dossier par région chargée et, dans chaque dossier, créer deux fichiers:
 - states.txt en copiant tout ce qui se trouve dans (http://download.openstreetmap.fr/extracts/europe/france/[ma_region]/[ma_region].state.txt)
-- configuration.txt en copiant le contenu suivant:
+- configuration.txt en copiant le contenu suivant :
+
+```
 # The URL of the directory containing change files.
 baseUrl=http://download.openstreetmap.fr/replication/europe/france/[ma_region]/minute/
 # Defines the maximum time interval in seconds to download in a single invocation.
 # Setting to 0 disables this feature.
 maxInterval = 3600
 #maxInterval = 0
+```
 
 4) Il faut ensuite copier le contenu suivant, de preference dans /home/nom_utilisateur/update.sh en vérifiant les droits d'accès également :
+
+```
 #!/bin/bash
 # source : https://github.com/springmeyer/up-to-date/blob/master/how_to.txt
 # make sure osmososis/osm2pgsql are on your PATH
@@ -45,6 +50,7 @@ SELECT RefreshAllMaterializedViews('theme');
 SELECT RefreshAllMaterializedViews('analyses');
 SELECT RefreshAllMaterializedViews('sfe');
 EOF
+```
 
 5) Il faut rendre le fichier executable avec la commande chmod +x /[mon_chemin]/update_osm_db.sh
 
