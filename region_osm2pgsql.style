@@ -1,0 +1,156 @@
+# Merci de lire la documentation associée avant de modifier ce fichier : readme.pdf.
+
+# Thématiques principales
+# OsmType	Tag			DataType	Flags
+# node,way	addr:housenumber	text		linear	# => validé
+# node,way	aerialway		text		linear	# => non utilisé
+node,way	aeroway			text		polygon	# => validé
+node,way	amenity			text		polygon	# => validé
+node,way	barrier			text		linear	# => validé
+node,way	boundary		text		linear	# => validé
+node,way	building		text		polygon	# => validé
+node,way	craft			text		polygon	# => validé
+node,way	emergency		text		polygon	# => validé
+# node,way	geological		text		polygon	# => non utilisé
+node,way	healthcare		text		polygon	# => validé
+node,way	highway			text		linear	# => validé
+node,way	historic		text		polygon	# => validé
+node,way	landuse			text		polygon	# => validé
+node,way	leisure			text		polygon	# => validé
+node,way	man_made		text		polygon	# => validé
+node,way	military		text		polygon	# => validé
+node,way	natural			text		polygon	# => validé
+node,way	office			text		polygon	# => validé
+node,way	place			text		polygon	# => validé
+node,way	power			text		polygon	# => validé
+node,way	public_transport	text		polygon	# => validé
+node,way	railway			text		linear	# => validé
+node,way	route			text		linear	# relations => validé
+node,way	shop			text		polygon	# => validé
+node,way	sport			text		polygon	# => validé
+# node,way	telecom			text		polygon	# => non utilisé
+node,way	tourism			text		polygon	# => validé
+node,way	waterway		text		polygon	# => validé
+
+# Clés secondaires
+# OsmType	Tag			DataType	Flags	Thématiques principales
+node,way	access			text		linear	#highway, railway
+# node,way	fixme			text		linear	#addr:housenumber
+# node,way	addr:housename		text		linear	#addr:housenumber
+# node,way	old:addr:housenumber	text		linear	#addr:housenumber => validé
+# node,way	addr:door		text		linear	#addr:housenumber => validé
+# node,way	addr:interpolation	text		linear	#addr:housenumber
+# node,way	admin_level		text		linear	#boundary
+# node,way	advertising		text		linear	# => validé
+node,way	area			text		polygon	#tous 
+# node,way	bicycle			text		linear	#highway
+# node,way	border_type		text		polygon	#boundary
+# node,way	building:levels	text		polygon	#building
+# node,way	building:part	text		polygon	#building => validé
+# node,way	brand			text		linear	#amenity, craft, office, shop, tourism
+node,way	bridge			text		linear	#tous
+# node		capital			text		linear	#boundary
+# node,way	construction	text		linear	#highway, railway, 
+# node,way	covered			text		linear	#tous
+node,way	culvert			text		linear	#waterway
+node,way	cutting			text		linear	#highway, railway
+# node,way	cycleway		text		linear	#highway
+# node,way	denomination	text		linear	#amenity=place_of_worship
+# node,way	distance		text		linear	#highway, => validé
+# node,way	disused			text		linear	#tous
+node		ele			text		linear	#tous
+# node,way	entrance		text		polygon	#building => validé
+node,way	embankment		text		linear	#highway, railway
+# node,way	foot			text		linear	#highway
+# node,way	harbour			text		polygon	# => validé
+# node,way	height			text		polygon	#building
+# node,way	industrial		text		linear	#landuse,
+# node,way	indoor			text		polygon	#building => validé
+# node,way	information		text		linear	# => validé
+node,way	int_ref			text		linear	#highway,
+# node,way	intermittent		text		linear	#natural, water, waterway
+# node,way	junction		text		linear	#highway,
+node,way	layer			text		linear	#highway, railway, 
+node,way	loc_ref			text		linear	#highway,
+# node,way	lock			text		linear	#waterway
+# node,way	motorcar		text		linear	#highway,
+node,way	name			text		linear	#tous
+# node,way	noexit			text		linear	#highway, => validé
+node,way	oneway			text		linear	#highway,
+# node,way	operator		text		linear	#tous
+# node,way	population		text		linear	#boundary
+# node,way	polling_station		text		polygon	#boundary => validé
+# node,way	power_source		text		linear	#power
+# node,way	ref:FR:FANTOIR		text		linear	#highway,
+# node,way	ref:FR:commune		text		linear	#highway, landuse
+# node,way	ref:FR:SIRET		text		linear  #amenity, shop, craf, office
+# node,way	ref:FR:NAF		text		linear  #amenity, shop, craf, office
+node,way	ref			text		linear	#highway,
+# node,way	religion		text		linear	#amenity
+# node,way	seamark:type		text		polygon	# => validé
+node,way	service			text		linear	#highway, railway,
+# node,way	sidewalk		text		linear	#highway
+# node,way	surface			text		linear	#highway,
+# node,way	toll			text		linear	#highway,
+# node,way	tower:type		text		linear	#man_made
+# way		tracktype		text		linear	#highway,
+# node,way	traffic_calming		text		linear	#highway, => validé
+# node,way	traffic_sign		text		linear	#highway, => validé
+node,way	tunnel			text		linear	#highway, railway
+node,way	type			text		linear	#relations => validé
+node,way	usage			text		linear	#highway, railway,
+node,way	water			text		polygon	#natural
+# node,way	wetland			text		polygon	#natural
+# node,way	width			text		linear	#highway
+
+# Clés métadonnées
+# OsmType	Tag			DataType	Flags	Thématiques principales
+node,way	source			text		linear	#tous
+node,way	osm_user		text		polygon #tous
+node,way	osm_uid			bigint		polygon	#tous
+node,way	osm_version		int		polygon	#tous
+node,way	osm_changeset		bigint		polygon	#tous
+node,way	osm_timestamp		timestamptz(0)	polygon #tous
+node,way	z_order			int4		linear	#tous
+way		way_area		real		linear	#tous
+
+# Clés pour créer des polygones
+# OsmType	Tag			DataType	Flags
+way		abandoned:aeroway	text		phstore
+way		abandoned:amenity	text		phstore
+way		abandoned:building	text		phstore
+way		abandoned:landuse	text		phstore
+way		abandoned:power		text		phstore
+way		area:highway		text		phstore
+
+# Clés supprimées
+# OsmType	Tag			DataType	Flags
+node,way    note                    text    delete
+node,way    note:*                  text    delete
+node,way    source_ref              text    delete
+node,way    source:*                text    delete
+node,way    attribution             text    delete
+node,way    comment                 text    delete
+node,way    created_by              text    delete
+node,way    odbl                    text    delete
+node,way    odbl:note               text    delete
+node,way    SK53_bulk:load          text    delete
+node,way    tiger:*                 text    delete
+node,way    NHD:*                   text    delete
+node,way    nhd:*                   text    delete
+node,way    gnis:*                  text    delete
+node,way    geobase:*               text    delete
+node,way    accuracy:meters         text    delete
+node,way    sub_sea:type            text    delete
+node,way    waterway:type           text    delete
+node,way    KSJ2:*                  text    delete
+node,way    yh:*                    text    delete
+node,way    osak:*                  text    delete
+node,way    kms:*                   text    delete
+node,way    ngbe:*                  text    delete
+node,way    naptan:*                text    delete
+node,way    CLC:*                   text    delete
+node,way    3dshapes:ggmodelk       text    delete
+node,way    AND_nosr_r              text    delete
+node,way    import                  text    delete
+node,way    it:fvg:*                text    delete

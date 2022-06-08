@@ -1,0 +1,959 @@
+juin 08, 2022 10:00:01 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Osmosis Version 0.47
+juin 08, 2022 10:00:01 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Preparing pipeline.
+juin 08, 2022 10:00:01 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Launching pipeline execution.
+juin 08, 2022 10:00:01 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline executing, waiting for completion.
+juin 08, 2022 10:00:19 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline complete.
+juin 08, 2022 10:00:19 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Total execution time: 18586 milliseconds.
+osm2pgsql version 0.96.0 (64 bit id space)
+
+Using built-in tag processing pipeline
+Using projection SRS 2154 ( +init=epsg:2154 +proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)
+Setting up table: habillage_osm_point
+Setting up table: habillage_osm_line
+Setting up table: habillage_osm_polygon
+Setting up table: habillage_osm_roads
+Allocating memory for dense node cache
+Allocating dense node cache in one big chunk
+Allocating memory for sparse node cache
+Sharing dense sparse
+Node-cache: cache=300MB, maxblocks=4800*65536, allocation method=11
+Mid: pgsql, cache=300
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+
+Reading in file: change.osc
+Using XML parser.
+  parse time: 81s
+Node stats: total(730), max(9803300331) in 74s
+Way stats: total(48), max(1067813335) in 7s
+Relation stats: total(0), max(0) in 0s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+
+Going over pending ways...
+	4 ways are pending
+
+Using 4 helper-processes
+Finished processing 4 ways in 1 s
+
+4 Pending ways took 1s at a rate of 4.00/s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+
+Going over pending relations...
+	108 relations are pending
+
+Using 4 helper-processes
+Finished processing 108 relations in 21 s
+
+108 Pending relations took 21s at a rate of 5.14/s
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+node cache: stored: 730(100.00%), storage efficiency: 7.60% (dense blocks: 1, sparse nodes: 707), hit rate: 2.23%
+Completed habillage_osm_polygon
+Stopping table: habillage_osm_nodes
+Completed habillage_osm_line
+Stopping table: habillage_osm_ways
+Stopped table: habillage_osm_nodes in 0s
+Stopping table: habillage_osm_rels
+Stopped table: habillage_osm_ways in 0s
+Stopped table: habillage_osm_rels in 0s
+Completed habillage_osm_roads
+Completed habillage_osm_point
+
+Osm2pgsql took 105s overall
+juin 08, 2022 10:02:05 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Osmosis Version 0.47
+juin 08, 2022 10:02:05 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Preparing pipeline.
+juin 08, 2022 10:02:05 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Launching pipeline execution.
+juin 08, 2022 10:02:05 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline executing, waiting for completion.
+juin 08, 2022 10:02:21 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline complete.
+juin 08, 2022 10:02:21 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Total execution time: 16527 milliseconds.
+osm2pgsql version 0.96.0 (64 bit id space)
+
+Using built-in tag processing pipeline
+Using projection SRS 2154 ( +init=epsg:2154 +proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)
+Setting up table: habillage_osm_point
+Setting up table: habillage_osm_line
+Setting up table: habillage_osm_polygon
+Setting up table: habillage_osm_roads
+Allocating memory for dense node cache
+Allocating dense node cache in one big chunk
+Allocating memory for sparse node cache
+Sharing dense sparse
+Node-cache: cache=300MB, maxblocks=4800*65536, allocation method=11
+Mid: pgsql, cache=300
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+
+Reading in file: change.osc
+Using XML parser.
+Processing: Node(0k 0.0k/s) Way(0k 0.01k/s) Relation(10 2.50/s)Processing: Node(0k 0.0k/s) Way(0k 0.01k/s) Relation(20 1.54/s)  parse time: 76s
+Node stats: total(482), max(9803267281) in 47s
+Way stats: total(108), max(1067815679) in 8s
+Relation stats: total(24), max(11772520) in 20s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+
+Going over pending ways...
+	37 ways are pending
+
+Using 4 helper-processes
+Finished processing 37 ways in 9 s
+
+37 Pending ways took 9s at a rate of 4.11/s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+
+Going over pending relations...
+	542 relations are pending
+
+Using 4 helper-processes
+Finished processing 542 relations in 44 s
+
+542 Pending relations took 44s at a rate of 12.32/s
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+node cache: stored: 482(100.00%), storage efficiency: 5.31% (dense blocks: 1, sparse nodes: 446), hit rate: 0.28%
+Completed habillage_osm_point
+Completed habillage_osm_polygon
+Stopping table: habillage_osm_nodes
+Completed habillage_osm_line
+Stopping table: habillage_osm_ways
+Completed habillage_osm_roads
+Stopping table: habillage_osm_rels
+Stopped table: habillage_osm_nodes in 0s
+Stopped table: habillage_osm_rels in 0s
+Stopped table: habillage_osm_ways in 0s
+
+Osm2pgsql took 130s overall
+juin 08, 2022 10:04:31 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Osmosis Version 0.47
+juin 08, 2022 10:04:32 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Preparing pipeline.
+juin 08, 2022 10:04:32 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Launching pipeline execution.
+juin 08, 2022 10:04:32 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline executing, waiting for completion.
+juin 08, 2022 10:04:48 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline complete.
+juin 08, 2022 10:04:48 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Total execution time: 16060 milliseconds.
+osm2pgsql version 0.96.0 (64 bit id space)
+
+Using built-in tag processing pipeline
+Using projection SRS 2154 ( +init=epsg:2154 +proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)
+Setting up table: habillage_osm_point
+Setting up table: habillage_osm_line
+Setting up table: habillage_osm_polygon
+Setting up table: habillage_osm_roads
+Allocating memory for dense node cache
+Allocating dense node cache in one big chunk
+Allocating memory for sparse node cache
+Sharing dense sparse
+Node-cache: cache=300MB, maxblocks=4800*65536, allocation method=11
+Mid: pgsql, cache=300
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+
+Reading in file: change.osc
+Using XML parser.
+  parse time: 146s
+Node stats: total(489), max(9803286016) in 50s
+Way stats: total(77), max(1067815892) in 22s
+Relation stats: total(7), max(14230103) in 74s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+
+Going over pending ways...
+	69 ways are pending
+
+Using 4 helper-processes
+Finished processing 69 ways in 25 s
+
+69 Pending ways took 25s at a rate of 2.76/s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+
+Going over pending relations...
+	287 relations are pending
+
+Using 4 helper-processes
+Finished processing 287 relations in 89 s
+
+287 Pending relations took 89s at a rate of 3.22/s
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+node cache: stored: 489(100.00%), storage efficiency: 5.71% (dense blocks: 1, sparse nodes: 189), hit rate: 0.14%
+Completed habillage_osm_point
+Completed habillage_osm_polygon
+Stopping table: habillage_osm_ways
+Stopping table: habillage_osm_nodes
+Completed habillage_osm_line
+Stopped table: habillage_osm_ways in 0s
+Stopping table: habillage_osm_rels
+Stopped table: habillage_osm_rels in 0s
+Completed habillage_osm_roads
+Stopped table: habillage_osm_nodes in 0s
+
+Osm2pgsql took 260s overall
+juin 08, 2022 10:09:08 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Osmosis Version 0.47
+juin 08, 2022 10:09:08 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Preparing pipeline.
+juin 08, 2022 10:09:08 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Launching pipeline execution.
+juin 08, 2022 10:09:08 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline executing, waiting for completion.
+juin 08, 2022 10:09:24 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline complete.
+juin 08, 2022 10:09:24 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Total execution time: 16234 milliseconds.
+osm2pgsql version 0.96.0 (64 bit id space)
+
+Using built-in tag processing pipeline
+Using projection SRS 2154 ( +init=epsg:2154 +proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)
+Setting up table: habillage_osm_point
+Setting up table: habillage_osm_line
+Setting up table: habillage_osm_polygon
+Setting up table: habillage_osm_roads
+Allocating memory for dense node cache
+Allocating dense node cache in one big chunk
+Allocating memory for sparse node cache
+Sharing dense sparse
+Node-cache: cache=300MB, maxblocks=4800*65536, allocation method=11
+Mid: pgsql, cache=300
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+
+Reading in file: change.osc
+Using XML parser.
+Processing: Node(1k 0.0k/s) Way(0k 0.02k/s) Relation(10 5.00/s)Processing: Node(1k 0.0k/s) Way(0k 0.02k/s) Relation(20 2.86/s)Processing: Node(1k 0.0k/s) Way(0k 0.02k/s) Relation(30 0.86/s)Processing: Node(1k 0.0k/s) Way(0k 0.02k/s) Relation(40 0.51/s)Processing: Node(1k 0.0k/s) Way(0k 0.02k/s) Relation(50 0.56/s)Processing: Node(1k 0.0k/s) Way(0k 0.02k/s) Relation(60 0.66/s)  parse time: 287s
+Node stats: total(1758), max(9803310550) in 175s
+Way stats: total(403), max(1067820190) in 20s
+Relation stats: total(61), max(14230103) in 91s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+
+Going over pending ways...
+	101 ways are pending
+
+Using 4 helper-processes
+Finished processing 101 ways in 21 s
+
+101 Pending ways took 21s at a rate of 4.81/s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+
+Going over pending relations...
+	1484 relations are pending
+
+Using 4 helper-processes
+Finished processing 1484 relations in 136 s
+
+1484 Pending relations took 136s at a rate of 10.91/s
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+node cache: stored: 1758(100.00%), storage efficiency: 15.02% (dense blocks: 1, sparse nodes: 1756), hit rate: 0.21%
+Completed habillage_osm_point
+Completed habillage_osm_polygon
+Stopping table: habillage_osm_ways
+Stopping table: habillage_osm_nodes
+Completed habillage_osm_line
+Stopping table: habillage_osm_rels
+Stopped table: habillage_osm_ways in 0s
+Stopped table: habillage_osm_nodes in 0s
+Stopped table: habillage_osm_rels in 0s
+Completed habillage_osm_roads
+
+Osm2pgsql took 444s overall
+juin 08, 2022 10:16:48 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Osmosis Version 0.47
+juin 08, 2022 10:16:48 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Preparing pipeline.
+juin 08, 2022 10:16:48 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Launching pipeline execution.
+juin 08, 2022 10:16:48 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline executing, waiting for completion.
+juin 08, 2022 10:17:04 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline complete.
+juin 08, 2022 10:17:04 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Total execution time: 15851 milliseconds.
+osm2pgsql version 0.96.0 (64 bit id space)
+
+Using built-in tag processing pipeline
+Using projection SRS 2154 ( +init=epsg:2154 +proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)
+Setting up table: habillage_osm_point
+Setting up table: habillage_osm_line
+Setting up table: habillage_osm_polygon
+Setting up table: habillage_osm_roads
+Allocating memory for dense node cache
+Allocating dense node cache in one big chunk
+Allocating memory for sparse node cache
+Sharing dense sparse
+Node-cache: cache=300MB, maxblocks=4800*65536, allocation method=11
+Mid: pgsql, cache=300
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+
+Reading in file: change.osc
+Using XML parser.
+  parse time: 73s
+Node stats: total(710), max(9803248420) in 70s
+Way stats: total(63), max(1067819563) in 2s
+Relation stats: total(8), max(14229886) in 1s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+
+Going over pending ways...
+	30 ways are pending
+
+Using 4 helper-processes
+Finished processing 30 ways in 4 s
+
+30 Pending ways took 4s at a rate of 7.50/s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+
+Going over pending relations...
+	823 relations are pending
+
+Using 4 helper-processes
+Finished processing 823 relations in 28 s
+
+823 Pending relations took 28s at a rate of 29.39/s
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+node cache: stored: 710(100.00%), storage efficiency: 7.39% (dense blocks: 1, sparse nodes: 709), hit rate: 0.06%
+Completed habillage_osm_polygon
+Stopping table: habillage_osm_nodes
+Completed habillage_osm_roads
+Completed habillage_osm_line
+Stopping table: habillage_osm_rels
+Stopped table: habillage_osm_nodes in 0s
+Completed habillage_osm_point
+Stopping table: habillage_osm_ways
+Stopped table: habillage_osm_rels in 0s
+Stopped table: habillage_osm_ways in 0s
+
+Osm2pgsql took 106s overall
+juin 08, 2022 10:18:50 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Osmosis Version 0.47
+juin 08, 2022 10:18:50 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Preparing pipeline.
+juin 08, 2022 10:18:50 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Launching pipeline execution.
+juin 08, 2022 10:18:50 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline executing, waiting for completion.
+juin 08, 2022 10:19:06 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Pipeline complete.
+juin 08, 2022 10:19:06 AM org.openstreetmap.osmosis.core.Osmosis run
+INFOS: Total execution time: 16083 milliseconds.
+osm2pgsql version 0.96.0 (64 bit id space)
+
+Using built-in tag processing pipeline
+Using projection SRS 2154 ( +init=epsg:2154 +proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)
+Setting up table: habillage_osm_point
+Setting up table: habillage_osm_line
+Setting up table: habillage_osm_polygon
+Setting up table: habillage_osm_roads
+Allocating memory for dense node cache
+Allocating dense node cache in one big chunk
+Allocating memory for sparse node cache
+Sharing dense sparse
+Node-cache: cache=300MB, maxblocks=4800*65536, allocation method=11
+Mid: pgsql, cache=300
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+
+Reading in file: change.osc
+Using XML parser.
+  parse time: 7s
+Node stats: total(10), max(9803177489) in 1s
+Way stats: total(43), max(1067804229) in 1s
+Relation stats: total(7), max(11896858) in 4s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+Setting up table: habillage_osm_nodes
+Setting up table: habillage_osm_ways
+Setting up table: habillage_osm_rels
+Using built-in tag processing pipeline
+
+Going over pending ways...
+	2221 ways are pending
+
+Using 4 helper-processes
+Finished processing 2221 ways in 6 s
+
+2221 Pending ways took 6s at a rate of 370.17/s
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+Committing transaction for habillage_osm_point
+Committing transaction for habillage_osm_line
+Committing transaction for habillage_osm_polygon
+Committing transaction for habillage_osm_roads
+
+Going over pending relations...
+	838 relations are pending
+
+Using 4 helper-processes
+Finished processing 838 relations in 19 s
+
+838 Pending relations took 19s at a rate of 44.11/s
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_point
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_line
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_polygon
+WARNING:  there is no transaction in progress
+Committing transaction for habillage_osm_roads
+WARNING:  there is no transaction in progress
+node cache: stored: 10(100.00%), storage efficiency: 0.12% (dense blocks: 1, sparse nodes: 8), hit rate: 0.00%
+Completed habillage_osm_line
+Completed habillage_osm_polygon
+Stopping table: habillage_osm_nodes
+Completed habillage_osm_point
+Stopping table: habillage_osm_rels
+Stopped table: habillage_osm_nodes in 0s
+Completed habillage_osm_roads
+Stopping table: habillage_osm_ways
+Stopped table: habillage_osm_rels in 0s
+Stopped table: habillage_osm_ways in 0s
+
+Osm2pgsql took 33s overall
+
+------------------------------------------------------
+RefreshAllMaterializedViews
+
+NOTICE:  Refreshing materialized view in schema global
+NOTICE:  Refreshing global.mv_habillage_objets_rel_line
+NOTICE:  Refreshing global.mv_habillage_objets_rel_point
+NOTICE:  Refreshing global.mv_habillage_objets_rel_polygon
+NOTICE:  Refreshing global.mv_habillage_osm_cles_rel
+NOTICE:  Refreshing global.mv_habillage_osm_line
+NOTICE:  Refreshing global.mv_habillage_osm_membres_rel
+NOTICE:  Refreshing global.mv_habillage_osm_point
+NOTICE:  Refreshing global.mv_habillage_osm_polygon
+NOTICE:  Refreshing global.mv_habillage_osm_rels
+ refreshallmaterializedviews 
+-----------------------------
+                           1
+(1 ligne)
+
+NOTICE:  Refreshing materialized view in schema theme
+NOTICE:  Refreshing theme.mv_activite_economique
+NOTICE:  Refreshing theme.mv_adresses
+NOTICE:  Refreshing theme.mv_aerialway_line
+NOTICE:  Refreshing theme.mv_aerialway_point
+NOTICE:  Refreshing theme.mv_aerialway_polygone
+NOTICE:  Refreshing theme.mv_aeroway_line
+NOTICE:  Refreshing theme.mv_aeroway_point
+NOTICE:  Refreshing theme.mv_aeroway_polygone
+NOTICE:  Refreshing theme.mv_amenity_line
+NOTICE:  Refreshing theme.mv_amenity_point
+NOTICE:  Refreshing theme.mv_amenity_polygone
+NOTICE:  Refreshing theme.mv_barrier_line
+NOTICE:  Refreshing theme.mv_barrier_point
+NOTICE:  Refreshing theme.mv_barrier_polygone
+NOTICE:  Refreshing theme.mv_boundary_line
+NOTICE:  Refreshing theme.mv_boundary_point
+NOTICE:  Refreshing theme.mv_boundary_polygone
+NOTICE:  Refreshing theme.mv_building_line
+NOTICE:  Refreshing theme.mv_building_point
+NOTICE:  Refreshing theme.mv_building_polygone
+NOTICE:  Refreshing theme.mv_craft_line
+NOTICE:  Refreshing theme.mv_craft_point
+NOTICE:  Refreshing theme.mv_craft_polygone
+NOTICE:  Refreshing theme.mv_education_point
+NOTICE:  Refreshing theme.mv_education_polygone
+NOTICE:  Refreshing theme.mv_emergency_line
+NOTICE:  Refreshing theme.mv_emergency_point
+NOTICE:  Refreshing theme.mv_emergency_polygone
+NOTICE:  Refreshing theme.mv_geodesie
+NOTICE:  Refreshing theme.mv_geological_line
+NOTICE:  Refreshing theme.mv_geological_point
+NOTICE:  Refreshing theme.mv_geological_polygone
+NOTICE:  Refreshing theme.mv_healthcare_line
+NOTICE:  Refreshing theme.mv_healthcare_point
+NOTICE:  Refreshing theme.mv_healthcare_polygone
+NOTICE:  Refreshing theme.mv_highway_line
+NOTICE:  Refreshing theme.mv_highway_point
+NOTICE:  Refreshing theme.mv_highway_polygone
+NOTICE:  Refreshing theme.mv_historic_line
+NOTICE:  Refreshing theme.mv_historic_point
+NOTICE:  Refreshing theme.mv_historic_polygone
+NOTICE:  Refreshing theme.mv_landuse_line
+NOTICE:  Refreshing theme.mv_landuse_point
+NOTICE:  Refreshing theme.mv_landuse_polygone
+NOTICE:  Refreshing theme.mv_leisure_line
+NOTICE:  Refreshing theme.mv_leisure_point
+NOTICE:  Refreshing theme.mv_leisure_polygone
+NOTICE:  Refreshing theme.mv_man_made_line
+NOTICE:  Refreshing theme.mv_man_made_point
+NOTICE:  Refreshing theme.mv_man_made_polygone
+NOTICE:  Refreshing theme.mv_military_line
+NOTICE:  Refreshing theme.mv_military_point
+NOTICE:  Refreshing theme.mv_military_polygone
+NOTICE:  Refreshing theme.mv_natural_line
+NOTICE:  Refreshing theme.mv_natural_point
+NOTICE:  Refreshing theme.mv_natural_polygone
+NOTICE:  Refreshing theme.mv_office_line
+NOTICE:  Refreshing theme.mv_office_point
+NOTICE:  Refreshing theme.mv_office_polygone
+NOTICE:  Refreshing theme.mv_piste_ski_lin
+NOTICE:  Refreshing theme.mv_piste_ski_pol
+NOTICE:  Refreshing theme.mv_place_line
+NOTICE:  Refreshing theme.mv_place_point
+NOTICE:  Refreshing theme.mv_place_polygone
+NOTICE:  Refreshing theme.mv_power_line
+NOTICE:  Refreshing theme.mv_power_point
+NOTICE:  Refreshing theme.mv_power_polygone
+NOTICE:  Refreshing theme.mv_public_transport_line
+NOTICE:  Refreshing theme.mv_public_transport_point
+NOTICE:  Refreshing theme.mv_public_transport_polygone
+NOTICE:  Refreshing theme.mv_railway_line
+NOTICE:  Refreshing theme.mv_railway_point
+NOTICE:  Refreshing theme.mv_railway_polygone
+NOTICE:  Refreshing theme.mv_region_line
+NOTICE:  Refreshing theme.mv_region_point
+NOTICE:  Refreshing theme.mv_region_polygon
+NOTICE:  Refreshing theme.mv_remontees_mecaniques_lin
+NOTICE:  Refreshing theme.mv_remontees_mecaniques_pnt
+NOTICE:  Refreshing theme.mv_route_line
+NOTICE:  Refreshing theme.mv_route_point
+NOTICE:  Refreshing theme.mv_route_polygone
+NOTICE:  Refreshing theme.mv_shop_line
+NOTICE:  Refreshing theme.mv_shop_point
+NOTICE:  Refreshing theme.mv_shop_polygone
+NOTICE:  Refreshing theme.mv_sport_line
+NOTICE:  Refreshing theme.mv_sport_point
+NOTICE:  Refreshing theme.mv_sport_polygone
+NOTICE:  Refreshing theme.mv_stations_ski_pol
+NOTICE:  Refreshing theme.mv_telecom_line
+NOTICE:  Refreshing theme.mv_telecom_point
+NOTICE:  Refreshing theme.mv_telecom_polygone
+NOTICE:  Refreshing theme.mv_tourism_line
+NOTICE:  Refreshing theme.mv_tourism_point
+NOTICE:  Refreshing theme.mv_tourism_polygone
+NOTICE:  Refreshing theme.mv_velotourisme_circuit_lin
+NOTICE:  Refreshing theme.mv_velotourisme_troncon_lin
+NOTICE:  Refreshing theme.mv_voirie
+NOTICE:  Refreshing theme.mv_water_line
+NOTICE:  Refreshing theme.mv_water_point
+NOTICE:  Refreshing theme.mv_water_polygone
+NOTICE:  Refreshing theme.mv_waterway_line
+NOTICE:  Refreshing theme.mv_waterway_point
+NOTICE:  Refreshing theme.mv_waterway_polygone
+ refreshallmaterializedviews 
+-----------------------------
+                           1
+(1 ligne)
+
+NOTICE:  Refreshing materialized view in schema analyses
+NOTICE:  Refreshing analyses.tags_list
+NOTICE:  Refreshing analyses.users_list
+NOTICE:  Refreshing analyses.voies_ref
+ refreshallmaterializedviews 
+-----------------------------
+                           1
+(1 ligne)
+
+NOTICE:  Refreshing materialized view in schema sfe
+NOTICE:  Refreshing sfe.acces_autoroutes_points
+NOTICE:  Refreshing sfe.aeroports_pnt
+NOTICE:  Refreshing sfe.aeroports_polygone
+NOTICE:  Refreshing sfe.arret_transport_line
+NOTICE:  Refreshing sfe.arret_transport_point
+NOTICE:  Refreshing sfe.arret_transport_polygone
+NOTICE:  Refreshing sfe.banque_points
+NOTICE:  Refreshing sfe.hotels_point
+NOTICE:  Refreshing sfe.hotels_polygone
+NOTICE:  Refreshing sfe.medecin_points
+NOTICE:  Refreshing sfe.parking_points
+NOTICE:  Refreshing sfe.parking_polygone
+NOTICE:  Refreshing sfe.ports_polygones
+NOTICE:  Refreshing sfe.poste_points
+NOTICE:  Refreshing sfe.poste_polygone
+NOTICE:  Refreshing sfe.restaurants_points
+NOTICE:  Refreshing sfe.tramway_line
+NOTICE:  Refreshing sfe.voies_principales_line
+ refreshallmaterializedviews 
+-----------------------------
+                           1
+(1 ligne)
+
